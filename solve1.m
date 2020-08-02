@@ -1,7 +1,6 @@
 function [r]=solve1(x1,x2,m,e)
 x=(x1+x2)/2;
-x1,x2
-[a,y0,s]=sumh(x);
+[a,y0,s]=sumh(x,m);
 if abs(s-18)<=e
     r=x;
     return
