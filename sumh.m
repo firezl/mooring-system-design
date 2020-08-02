@@ -1,5 +1,5 @@
 function [a,y0,s]=sumh(h)
-v=36;
+v=12;
 l=1;
 lb=1;
 [t1,theta1]=buoy(h,v);
