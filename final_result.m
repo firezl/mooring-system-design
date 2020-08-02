@@ -1,5 +1,5 @@
 function [a,lc,alpha1,alpha2,alpha3,alpha4,alpha5,s,d,y0]=final_result(h)
-v=36;
+v=12;
 l=1;
 lb=1;
 [t1,theta1]=buoy(h,v);
